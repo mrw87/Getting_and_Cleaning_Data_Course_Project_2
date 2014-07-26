@@ -46,20 +46,22 @@ This code book provides a descriptions of the variables, data, and transformatio
 ##Transformation details
 
   *This code essentially does 5 things in order to create a tidy data set: 
-     -Merges the training and the test sets to create one data set
-     -Extracts only the measurements on the mean and standard deviation for each measurement.
-     -Uses descriptive activity names to name the activities in the data set
-     -Appropriately labels the data set with descriptive activity names.
-     -Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-     -How run_analysis.R implements the above steps:
+     
+     - Merges the training and the test sets to create one data set
+     - Extracts only the measurements on the mean and standard deviation for each measurement.
+     - Uses descriptive activity names to name the activities in the data set
+     - Appropriately labels the data set with descriptive activity names.
+     - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+     - How run_analysis.R implements the above steps:
 
   *In order to satisfy these requirements, run_analysis.R does all of the following: 
-     -Loads required reshape2 and data.table libraries
-     -Loads both test and train datasets
-     -Loads the features and activity labels
-     -Extracts the mean and standard deviation column names and data
-     -Processes the train and test data
-     -Merges the data set
+  
+     - Loads required reshape2 and data.table libraries
+     - Loads both test and train datasets
+     - Loads the features and activity labels
+     - Extracts the mean and standard deviation column names and data
+     - Processes the train and test data
+     - Merges the data set
 
 
 
