@@ -1,6 +1,6 @@
 # THE CODEBOOK 
 
-This code book provides a descriptions of the variables, data, and transformations involved in cleaning up the data. 
+This code book provides a descriptions of the variables, data, and transformations involved in cleaning up the data.  
 
 ##The Data Source
 
@@ -16,7 +16,7 @@ This code book provides a descriptions of the variables, data, and transformatio
 
   * "README.txt"
 
-  * "features_info.txt": Provides info about the variables used on the feature vector.
+  * "features_info.txt": This file rovides info about the variables used on the feature vector
 
   * "features.txt": Lists all features
 
@@ -32,8 +32,7 @@ This code book provides a descriptions of the variables, data, and transformatio
   
       - "y_test.txt": Test labels 
   
-##The following files are available for the train and test data. 
-
+##Files for the train and test data
   * In "train" folder:
       - "subject_train.txt": Each row identifies the subject who performed the activity for each window sample--has a range of 1-30
 
